@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/plouc/react-svg-buttons/issues"
   },
+  "files": ["lib/"],
   "scripts": {
     "build": "NODE_ENV=production rm -rf lib/* && babel src --no-comments --out-dir lib",
     "watch": "NODE_ENV=development babel src --out-dir lib --watch",
