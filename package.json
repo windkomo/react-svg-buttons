@@ -24,7 +24,8 @@
     "watch": "NODE_ENV=development babel src --out-dir lib --watch",
     "build:demo-lib:watch": "NODE_ENV=development babel src --out-dir demo/src/lib --watch",
     "format": "prettier --tab-width=4 --bracket-spacing --no-semi --trailing-comma es5 --single-quote --write 'src/**/*.js' 'demo/src/**/*.js'",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
