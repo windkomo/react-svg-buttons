@@ -9,7 +9,7 @@
 export default (origin, radius) => ({
     circleDashOffset: 0,
     circleRotation: 0,
-    circleOpacity: 1,
+    circleOpacity: 0,
 
     barsRotation: 0,
 
